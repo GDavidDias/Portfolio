@@ -5,11 +5,10 @@ const Card = ({proyect}) =>{
     return(
         <div className={style.container}>
             <div className={style.imageCard}>
-
+                <img src={proyect.image}></img>
             </div>
             <div className={style.datosCard}>
-                <h1>{proyect.id}</h1>
-                <h1>{proyect.url}</h1>
+                <p>{proyect.description}</p>
             </div>
         </div>
     )

@@ -5,3 +5,9 @@
     padding-left: 2rem;
     padding-right: 2rem;    
 }
+.CardsProyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}

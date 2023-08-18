@@ -34,13 +34,15 @@ const Home = () =>{
             </div>
             <div className={style.Proyectos}>
                 <h1>Proyectos</h1>
-                {
-                    data?.proyects.map((proyect,index)=>(
-                        <div key={index}>
-                            <Card proyect={proyect}/>
-                        </div>
-                    ))
-                }
+                <div className={style.CardsProyectos}>
+                    {
+                        data?.proyects.map((proyect,index)=>(
+                            <div key={index}>
+                                <Card proyect={proyect}/>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
             <div className={style.Habilidades}>
                 <h1>Habilidades</h1>

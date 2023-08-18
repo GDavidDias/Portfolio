@@ -1,4 +1,24 @@
 .container{
     border: 1px solid greenyellow;
-    
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 25vw;
+    align-items: center;
+    padding: 10px;
+}
+.imageCard{
+    height: 20vh;
+    width: 25vw;
+    display: flex;
+}
+.imageCard img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.datosCard p{
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
 }
