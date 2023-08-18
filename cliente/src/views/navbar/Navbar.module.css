@@ -1,0 +1,25 @@
+.container{
+    border: 1px red solid;
+    height: 15vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+.name h1{
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: auto;
+}
+.menu h3{
+    font-size: 1.2rem;
+    font-family: 'Fira Sans', sans-serif;
+}

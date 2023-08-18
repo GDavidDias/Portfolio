@@ -1,0 +1,7 @@
+.container{
+    border: 1px solid blue;
+    height: 84vh;
+    width: 90vw;
+    padding-left: 2rem;
+    padding-right: 2rem;    
+}
