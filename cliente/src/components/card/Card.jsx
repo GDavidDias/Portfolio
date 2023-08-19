@@ -5,7 +5,8 @@ const Card = ({proyect}) =>{
     return(
         <div className={style.container}>
             <div className={style.imageCard}>
-                <img src={proyect.image}></img>
+                <a href={proyect.url}><img src={proyect.image}/></a>
+                
             </div>
             <div className={style.datosCard}>
                 <p>{proyect.description}</p>

@@ -8,10 +8,9 @@ const Navbar = () =>{
                 <h1>Guillermo David Dias</h1>
             </div>
             <div className={style.menu}>
-                <h3>Inicio</h3>
-                <h3>Proyectos</h3>
-                <h3>Habilidades</h3>
-                <h3>Contacto</h3>
+                <a href='#seccionInicio'><h3>Inicio</h3></a>
+                <a href='#seccionProyectos'><h3>Proyectos</h3></a>
+                <a href='#seccionHabilidades'><h3>Habilidades</h3></a>
             </div>
         </div>
     )
