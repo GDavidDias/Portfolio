@@ -23,11 +23,6 @@ const Home = () =>{
     useEffect(()=>{
         const fetchdata = async () => {
             try{
-                //const response = await fetch('../../../src/data/data.json');
-                //const response = await require ('../../../src/data/data.json');
-                //console.log('que tiene response: ', response);
-                //const jsonData = await response.json();
-                //setData(jsonData);
                 const response = dataJson;
                 setData(response)
             }catch(error){

@@ -1,11 +1,17 @@
 import style from './Card.module.css';
 
 
+
 const Card = ({proyect}) =>{
+    
     return(
         <div className={style.container}>
             <div className={style.imageCard}>
-                <a href={proyect.url} target='_blank' ><img src={proyect.image}/></a>
+                <a href={proyect.url} target='_blank' >
+                    <img 
+                        src={`../../../assets/images/${proyect.image}`}
+                    />
+                </a>
                 
             </div>
             <div className={style.datosCard}>
