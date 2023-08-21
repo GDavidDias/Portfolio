@@ -1,6 +1,6 @@
+import React from 'react';
 import style from './Card.module.css';
-const path = '../../../assets/images';
-
+import ImageList from '../imageList/ImageList';
 
 
 const Card = ({proyect}) =>{
@@ -10,7 +10,7 @@ const Card = ({proyect}) =>{
             <div className={style.imageCard}>
                 <a href={proyect.url} target='_blank' >
                     <img 
-                        src={`${path}/${proyect.image}`}
+                        src={ImageList[proyect.image]}
                     />
                 </a>
                 
