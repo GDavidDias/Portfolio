@@ -15,6 +15,7 @@ import {HiMail,HiDocumentDownload} from 'react-icons/hi';
 import {FaNodeJs,FaMoon} from 'react-icons/fa';
 import {MdOutlineAlternateEmail} from 'react-icons/md';
 import fotoPerfil from '../../../assets/imagePerfil/foto_perfil.jpg'
+import dataJson from '../../../src/data/data.json';
 
 const Home = () =>{
     const[data,setData] = useState();
@@ -22,10 +23,13 @@ const Home = () =>{
     useEffect(()=>{
         const fetchdata = async () => {
             try{
-                const response = await fetch('../../../src/data/data.json');
-                console.log('que tiene response: ', response);
-                const jsonData = await response.json();
-                setData(jsonData);
+                //const response = await fetch('../../../src/data/data.json');
+                //const response = await require ('../../../src/data/data.json');
+                //console.log('que tiene response: ', response);
+                //const jsonData = await response.json();
+                //setData(jsonData);
+                const response = dataJson;
+                setData(response)
             }catch(error){
                 console.log('error al traer datos: ', error.message);
             }
