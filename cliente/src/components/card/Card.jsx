@@ -1,4 +1,5 @@
 import style from './Card.module.css';
+const path = '../../../assets/images';
 
 
 
@@ -9,7 +10,7 @@ const Card = ({proyect}) =>{
             <div className={style.imageCard}>
                 <a href={proyect.url} target='_blank' >
                     <img 
-                        src={`../../../assets/images/${proyect.image}`}
+                        src={`${path}/${proyect.image}`}
                     />
                 </a>
                 
