@@ -14,6 +14,7 @@ import {SiPostgresql,SiSequelize,SiExpress,SiFigma} from 'react-icons/si';
 import {HiMail,HiDocumentDownload} from 'react-icons/hi';
 import {FaNodeJs,FaMoon} from 'react-icons/fa';
 import {MdOutlineAlternateEmail} from 'react-icons/md';
+import fotoPerfil from '../../../assets/imagePerfil/foto_perfil.jpg'
 
 const Home = () =>{
     const[data,setData] = useState();
@@ -49,7 +50,7 @@ const Home = () =>{
                         
                     </div>
                     <div className={style.fotoInicio}>
-                        <img src='../../../assets/imagePerfil/foto_perfil.jpg'></img>
+                        <img src={fotoPerfil}></img>
                         <div className={style.iconosFotoInicio}>
                             <a href='https://www.linkedin.com/in/gdd800804/' 
                                 target='_blank'
