@@ -52,16 +52,19 @@ const Home = () =>{
                         <img src='../../../assets/imagePerfil/foto_perfil.jpg'></img>
                         <div className={style.iconosFotoInicio}>
                             <a href='https://www.linkedin.com/in/gdd800804/' 
+                                target='_blank'
                             ><RiLinkedinBoxFill className={style.iconInicio}/></a>
 
                             <a href='https://github.com/GDavidDias' 
+                                target='_blank'
                             ><RiGithubFill className={style.iconInicio}/></a>
 
 
-                            <a href='guillermo.david.dias@gmail.com' 
+                            <a href='mailto:guillermo.david.dias@gmail.com' 
                             ><MdOutlineAlternateEmail className={style.iconInicio}/></a>
 
-                            <a href='' 
+                            <a href='../../../assets/CV/CV - Guillermo David Dias 2023.pdf' 
+                                download
                             ><HiDocumentDownload className={style.iconInicio}/></a>
 
                         </div>

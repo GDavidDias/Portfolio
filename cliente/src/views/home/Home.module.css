@@ -103,3 +103,36 @@ html{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .InicioContainer{
+        flex-direction: column-reverse;
+    }
+    .fotoInicio{
+        padding-top: 0;
+        width: auto;
+    }
+    .fotoInicio img{
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .descripcionInicio{
+        width: auto;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .Proyectos{
+        height: 100%;
+    }
+    .CardsProyectos{
+        flex-direction: column;
+        
+    }
+}

@@ -46,3 +46,15 @@ body{
 .read-the-docs {
   color: #888;
 }
+
+
+@media screen and (max-width: 768px) {
+  #root{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
