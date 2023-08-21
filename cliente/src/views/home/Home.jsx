@@ -16,6 +16,7 @@ import {FaNodeJs,FaMoon} from 'react-icons/fa';
 import {MdOutlineAlternateEmail} from 'react-icons/md';
 import fotoPerfil from '../../../assets/imagePerfil/foto_perfil.jpg'
 import dataJson from '../../../src/data/data.json';
+import CVFile from '../../../assets/CV/CV - Guillermo David Dias 2023.pdf';
 
 const Home = () =>{
     const[data,setData] = useState();
@@ -63,7 +64,7 @@ const Home = () =>{
                             <a href='mailto:guillermo.david.dias@gmail.com' 
                             ><MdOutlineAlternateEmail className={style.iconInicio}/></a>
 
-                            <a href='../../../assets/CV/CV - Guillermo David Dias 2023.pdf' 
+                            <a href={CVFile} 
                                 download
                             ><HiDocumentDownload className={style.iconInicio}/></a>
 
