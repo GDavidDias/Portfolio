@@ -1,7 +1,10 @@
 import style from './Navbar.module.css';
+import {FaMoon} from 'react-icons/fa';
 
 
 const Navbar = () =>{
+
+
     return(
         <div className={style.container}>
             <div className={style.name}>

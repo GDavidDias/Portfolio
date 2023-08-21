@@ -1,5 +1,5 @@
 .container{
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 15vh;
     width: 90vw;
     display: flex;
@@ -11,21 +11,48 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    background-color: grey;
+    background-color: #BF7B6B;
+    /* box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2); */
+    border-radius: 10px;
+    
+    /*SOMBRA INTERIOR DEL CONTENEDOR*/
+    box-shadow: 
+        inset 0 1px 15px rgba(211, 191, 217, 0.2), /* Borde superior */
+        inset 0 -1px 15px rgba(211, 191, 217, 0.2), /* Borde inferior */
+        inset 1px 0 15px rgba(211, 191, 217, 0.2), /* Borde izquierdo */
+        inset -1px 0 15px rgba(211, 191, 217, 0.2); /* Borde derecho */
+        
 }
+
 .name h1{
     font-size: 2rem;
     font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    /* color: #F2C6C2; */
+    color: #361973;
+    text-shadow: 1px 1px 4px rgba(242, 198, 194, 1);
 }
 .menu{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     margin-left: auto;
 }
 .menu h3{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     font-family: 'Fira Sans', sans-serif;
+    /* color: #204473; */
+    color: #361973;
+    text-shadow: 1px 1px 4px rgba(242, 198, 194, 1);
+    transition: transform 0.3s ease;
+}
+.menu h3:hover{
+    opacity: 0.9;
+    color: #F2C6C2;
+    /* -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1); */
+    transform: scale(1.1);
 }
 .menu a{
     text-decoration: none;

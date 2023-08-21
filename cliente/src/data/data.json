@@ -6,14 +6,14 @@
             "description":"SPA que muestra las recetas de la api spoonacular, funcionalidad de CRUD completo al crear recetas, paginacion, filtros y ordenamiento"
         },
         {"id":2,
-            "url":"https://pi-food-deploy-five.vercel.app/", 
-            "image":"../../assets/images/Pi-Food.JPG",
-            "description":"SPA que muestra las recetas de la api spoonacular, funcionalidad de CRUD completo al crear recetas, paginacion, filtros y ordenamiento"
+            "url":"https://colegiosantaclara.edu.ar/", 
+            "image":"../../assets/images/Web-Institucional-CSCA.JPG",
+            "description":"Sitio Web Institucional del Colegio Santa Clara de ASis realizado en WordPress, desde el menu principal se accede a informacion del colegio, niveles y actividades."
         },
         {"id":3,
-            "url":"https://pi-food-deploy-five.vercel.app/", 
-            "image":"../../assets/images/Pi-Food.JPG",
-            "description":"SPA que muestra las recetas de la api spoonacular, funcionalidad de CRUD completo al crear recetas, paginacion, filtros y ordenamiento"
+            "url":"https://virtual.colegiosantaclara.edu.ar/", 
+            "image":"../../assets/images/Aula-Virtual-CSCA.JPG",
+            "description":"Plataforma Virtual con todos los cursos del Colegio Santa Clara de Asis, realizado con el gestor MOODLE, administracion de aulas, matriculacion y generacion de contenido pedagogico."
         }
     ]
 }
