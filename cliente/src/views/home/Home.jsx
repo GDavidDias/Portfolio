@@ -12,11 +12,12 @@ import {
 import {TbBrandRedux} from 'react-icons/tb';
 import {SiPostgresql,SiSequelize,SiExpress,SiFigma} from 'react-icons/si';
 import {HiMail,HiDocumentDownload} from 'react-icons/hi';
-import {FaNodeJs,FaMoon} from 'react-icons/fa';
+import {FaNodeJs,FaMoon,FaWordpress} from 'react-icons/fa';
 import {MdOutlineAlternateEmail} from 'react-icons/md';
 import fotoPerfil from '../../../assets/imagePerfil/foto_perfil.jpg'
 import dataJson from '../../../src/data/data.json';
 import CVFile from '../../../assets/CV/CV - Guillermo David Dias 2023.pdf';
+import iconMoodle from '../../../assets/icon/moodle.svg';
 
 const Home = () =>{
     const[data,setData] = useState();
@@ -36,6 +37,20 @@ const Home = () =>{
     useEffect(()=>{
         console.log('que tiene data: ', data)
     },[data])
+
+    const[isHovered, setIsHovered]=useState(false);
+    const[skill, setSkill]=useState('');
+
+    const handleMouseEnter = (value)=>{
+        setIsHovered(true);
+        console.log("que tiene value en mouseenter: ", value)
+        setSkill(value);
+    }
+    const handleMouseLeave = () =>{
+        setIsHovered(false);
+        setSkill('');
+    }
+
 
     return(
         <div className={style.container}>
@@ -107,36 +122,51 @@ const Home = () =>{
             <div className={style.Habilidades}>
                 <h1 id='habilidades' className={style.espacioHabilidades}>Habilidades</h1>
                 <div className={style.HabilidadesContainer}>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("JavaScript")} onMouseLeave={handleMouseLeave}>
                         <RiJavascriptLine className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("React")} onMouseLeave={handleMouseLeave}>
                         <RiReactjsLine className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("Redux")} onMouseLeave={handleMouseLeave}>
                         <TbBrandRedux className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("Node.js")} onMouseLeave={handleMouseLeave}>
                         <FaNodeJs className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("Express")} onMouseLeave={handleMouseLeave}>
                         <SiExpress className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("Sequelize")} onMouseLeave={handleMouseLeave}>
                         <SiSequelize className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("PostgreSQL")} onMouseLeave={handleMouseLeave}>
                         <SiPostgresql className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("HTML")} onMouseLeave={handleMouseLeave}>
                         <RiHtml5Fill className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("CSS")} onMouseLeave={handleMouseLeave}>
                         <RiCss3Fill className={style.iconHabilidades}/>
                     </div>
-                    <div className={style.grow}>
+                    {/* <div className={style.grow} onMouseEnter={()=>handleMouseEnter("Figma")} onMouseLeave={handleMouseLeave}>
                         <SiFigma className={style.iconHabilidades}/>
+                    </div> */}
+
+                </div>
+                <div className={style.Habilidades2Container}>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("Moodle")} onMouseLeave={handleMouseLeave}>
+                        {/* <iconMoodle className={style.iconHabilidades}/> */}
+                        <img src={iconMoodle} className={style.iconMoodle}/>
                     </div>
+                    <div className={style.grow} onMouseEnter={()=>handleMouseEnter("WordPress")} onMouseLeave={handleMouseLeave}>
+                        <FaWordpress className={style.iconHabilidades}/>
+                    </div>
+                </div>
+                <div className={style.textSkill}>
+                    {
+                        isHovered && <h1>{skill}</h1>
+                    }
                 </div>
             </div>
             </section>

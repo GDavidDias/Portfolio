@@ -92,10 +92,22 @@ html{
 .espacioHabilidades{
     padding-top: 9rem;
 }
+.Habilidades{
+    
+    justify-content: flex-start;
+}
 .HabilidadesContainer{
     font-size: 3rem;   
     color: #BF7B6B;
-    padding-bottom: 27rem;
+    /* padding-bottom: 27rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Habilidades2Container{
+    font-size: 3rem;   
+    color: #BF7B6B;
+    /* padding-bottom: 27rem; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,12 +116,23 @@ html{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+.iconMoodle{
+    width: 9vw;
+    height: 9vh;
+}
+
 .grow{
     transition: transform 0.5s ease;
 }
 .grow:hover{
     opacity: 0.9;
     transform: scale(1.1);
+    color: #F2C6C2;
+}
+.textSkill{
+    padding-top: 5rem;
+    align-items: flex-start;
+    font-size: 3rem;
     color: #F2C6C2;
 }
 
@@ -143,5 +166,13 @@ html{
     .CardsProyectos{
         flex-direction: column;
         
+    }
+    .HabilidadesContainer{
+        flex-wrap: wrap;
+    }
+    .iconMoodle{
+        min-width: 9vw;
+        min-height: 9vh;
+        width: auto;
     }
 }
