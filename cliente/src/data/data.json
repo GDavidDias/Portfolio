@@ -3,7 +3,7 @@
         {"id":1,
             "url":"https://pi-food-deploy-five.vercel.app/", 
             "image":"image1",
-            "description":"SPA que muestra las recetas de la api spoonacular, funcionalidad de CRUD completo al crear recetas, paginacion, filtros y ordenamiento"
+            "description":"SPA realizado en React, Node.js, Express y PostgreSQL que muestra las recetas de la api spoonacular, con funcionalidad de CRUD completo al crear recetas, paginacion, filtros y ordenamiento"
         },
         {"id":2,
             "url":"https://colegiosantaclara.edu.ar/", 
