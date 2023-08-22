@@ -54,19 +54,35 @@ const Home = () =>{
                         <div className={style.iconosFotoInicio}>
                             <a href='https://www.linkedin.com/in/gdd800804/' 
                                 target='_blank'
-                            ><RiLinkedinBoxFill className={style.iconInicio}/></a>
+                            >
+                                <div className={style.grow}>
+                                    <RiLinkedinBoxFill className={style.iconInicio}/>
+                                </div>
+                            </a>
 
                             <a href='https://github.com/GDavidDias' 
                                 target='_blank'
-                            ><RiGithubFill className={style.iconInicio}/></a>
+                            >
+                                <div className={style.grow}>
+                                    <RiGithubFill className={style.iconInicio}/>
+                                </div>
+                            </a>
 
 
                             <a href='mailto:guillermo.david.dias@gmail.com' 
-                            ><MdOutlineAlternateEmail className={style.iconInicio}/></a>
+                            >
+                                <div className={style.grow}>
+                                    <MdOutlineAlternateEmail className={style.iconInicio}/>
+                                </div>
+                            </a>
 
                             <a href={CVFile} 
                                 download
-                            ><HiDocumentDownload className={style.iconInicio}/></a>
+                            >
+                                <div className={style.grow}>
+                                    <HiDocumentDownload className={style.iconInicio}/>
+                                </div>
+                            </a>
 
                         </div>
                     </div>
@@ -91,16 +107,36 @@ const Home = () =>{
             <div className={style.Habilidades}>
                 <h1 id='habilidades' className={style.espacioHabilidades}>Habilidades</h1>
                 <div className={style.HabilidadesContainer}>
-                    <RiJavascriptLine className={style.iconHabilidades}/>
-                    <RiReactjsLine className={style.iconHabilidades}/>
-                    <TbBrandRedux className={style.iconHabilidades}/>
-                    <FaNodeJs className={style.iconHabilidades}/>
-                    <SiExpress className={style.iconHabilidades}/>
-                    <SiSequelize className={style.iconHabilidades}/>
-                    <SiPostgresql className={style.iconHabilidades}/>
-                    <RiHtml5Fill className={style.iconHabilidades}/>
-                    <RiCss3Fill className={style.iconHabilidades}/>
-                    <SiFigma className={style.iconHabilidades}/>
+                    <div className={style.grow}>
+                        <RiJavascriptLine className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <RiReactjsLine className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <TbBrandRedux className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <FaNodeJs className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <SiExpress className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <SiSequelize className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <SiPostgresql className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <RiHtml5Fill className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <RiCss3Fill className={style.iconHabilidades}/>
+                    </div>
+                    <div className={style.grow}>
+                        <SiFigma className={style.iconHabilidades}/>
+                    </div>
                 </div>
             </div>
             </section>
