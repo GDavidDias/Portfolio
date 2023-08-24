@@ -13,6 +13,12 @@
     width: 25vw;
     display: flex;
     justify-content: center;
+    transition: transform 0.5s ease;
+}
+.imageCard:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+    color: #F2BDBD;
 }
 .imageCard img{
     max-width: 100%;
