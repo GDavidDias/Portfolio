@@ -1,5 +1,6 @@
 body{
-  background-color: #361973;
+  /* background-color: #361973; */
+  background: linear-gradient(to bottom left,#260124, #493D73,#8C3A3A);
 }
 #root {
   /* max-width: 1280px; */

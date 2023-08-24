@@ -11,7 +11,7 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    background-color: #BF7B6B;
+    background-color: #260124;
     /* box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2); */
     border-radius: 10px;
     
@@ -29,8 +29,8 @@
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
     /* color: #F2C6C2; */
-    color: #361973;
-    text-shadow: 1px 1px 4px rgba(242, 198, 194, 1);
+    color: #F27052;
+    /* text-shadow: 1px 1px 4px rgba(242, 198, 194, 1); */
 }
 .menu{
     display: flex;
@@ -43,8 +43,8 @@
     font-weight: 700;
     font-family: 'Fira Sans', sans-serif;
     /* color: #204473; */
-    color: #361973;
-    text-shadow: 1px 1px 4px rgba(242, 198, 194, 1);
+    color: #F27052;
+    /* text-shadow: 1px 1px 4px rgba(242, 198, 194, 1); */
     transition: transform 0.3s ease;
 }
 .menu h3:hover{

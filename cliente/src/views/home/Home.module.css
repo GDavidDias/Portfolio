@@ -6,7 +6,8 @@ html{
     width: 90vw;
     padding-left: 2rem;
     padding-right: 2rem;    
-    background-color: #361973;
+    /* background-color: #361973; */
+    background: linear-gradient(to bottom left,#260124, #493D73,#8C3A3A);
 }
 .espacioInicial{
     padding-top: 9rem;
@@ -18,7 +19,7 @@ html{
 .container h1{
     font-family: 'Fira Sans', sans-serif;
     /* color: #204473; */
-    color: #F2C6C2;
+    color: #F2BDBD;
     
     font-size: 2.5rem;
 }
@@ -56,7 +57,7 @@ html{
     text-align: left;
 }
 .descripcionInicio p{
-    color: #F2C6C2;
+    color: #F2BDBD;
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.05rem;
 }
@@ -127,13 +128,13 @@ html{
 .grow:hover{
     opacity: 0.9;
     transform: scale(1.1);
-    color: #F2C6C2;
+    color: #F2BDBD;
 }
 .textSkill{
     padding-top: 5rem;
     align-items: flex-start;
     font-size: 3rem;
-    color: #F2C6C2;
+    color: #F2BDBD;
 }
 
 @media screen and (max-width: 768px) {
