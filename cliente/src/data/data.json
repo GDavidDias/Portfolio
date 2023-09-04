@@ -1,16 +1,21 @@
 {
     "proyects":[
         {"id":1,
+            "url":"https://ecommerce-orpin-tau.vercel.app/", 
+            "image":"image4",
+            "description":"Ecommerce realizado en React, Node.js, Express y PostgreSQL.  Funcionalidad de pasarela de pagos e integracion con MercadoPago.  Uso de Tailwindcss, Redux Toolkit y ventanas modales."
+        },
+        {"id":2,
             "url":"https://pi-food-deploy-five.vercel.app/", 
             "image":"image1",
             "description":"SPA realizado en React, Node.js, Express y PostgreSQL que muestra las recetas de la api spoonacular, con funcionalidad de CRUD completo al crear recetas, paginacion, filtros y ordenamiento"
         },
-        {"id":2,
+        {"id":3,
             "url":"https://colegiosantaclara.edu.ar/", 
             "image":"image2",
             "description":"Sitio Web Institucional del Colegio Santa Clara de Asis realizado en WordPress, desde el menu principal se accede a informacion del colegio, niveles y actividades."
         },
-        {"id":3,
+        {"id":4,
             "url":"https://virtual.colegiosantaclara.edu.ar/", 
             "image":"image3",
             "description":"Plataforma Virtual con todos los cursos del Colegio Santa Clara de Asis, realizado con el gestor MOODLE, administracion de aulas, matriculacion y generacion de contenido pedagogico."
