@@ -8,6 +8,7 @@ import {
     RiReactjsLine,
     RiHtml5Fill,
     RiCss3Fill,
+    RiWhatsappFill,
 } from "react-icons/ri";
 import {TbBrandRedux} from 'react-icons/tb';
 import {SiPostgresql,SiSequelize,SiExpress,SiFigma} from 'react-icons/si';
@@ -18,6 +19,7 @@ import fotoPerfil from '../../../assets/imagePerfil/foto_perfil.jpg'
 import dataJson from '../../../src/data/data.json';
 import CVFile from '../../../assets/CV/CV - Guillermo David Dias 2023.pdf';
 import iconMoodle from '../../../assets/icon/moodle.svg';
+const NUMERO = +541169364350;
 
 const Home = () =>{
     const[data,setData] = useState();
@@ -62,7 +64,33 @@ const Home = () =>{
                         <p>Soy desarrollador fullstack con background en Analisis de Sistemas y Profesor en Disciplinas Industriales especialidad informatica, tengo experiencia en el desarrollo de plataformas institucionales y aulas virtuales utilizando gestores como WordPress y Moodle.</p>
                         <p>Para el desarrollo de las aplicaciones manejo tecnologias del entorno JavaScript, React, Redux, Node, Express, Sequelize, PostreSQL.</p>
                         <p>Proactivo, siempre dispuesto a nuevos desafios y a continuar aprendiendo nuevas tecnologias para aportar la mejor solucion a las necesidades requeridas.</p>
-                        
+                        <h3>Datos de Contacto</h3>
+                        <div className={style.contacto}>
+                            <div className={style.contactoMail}>
+                                <div className={style.icono}>
+                                    <a href='mailto:guillermo.david.dias@gmail.com' 
+                                    >
+                                        <div className={style.grow}>
+                                            <MdOutlineAlternateEmail className={style.iconInicio}/>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p>guillermo.david.dias@gmail.com</p>
+                            </div>
+                            <div className={style.contactoWhatsapp}>
+                                <a href={`https://api.whatsapp.com/send?phone=${NUMERO}&text=Hola%20Guillermo,%20quisiera%20contactarte.`} target='_blank'>
+                                    <div className={style.grow}>
+                                        <RiWhatsappFill className={style.iconInicio}/>
+                                    </div>
+                                </a>
+                                <p>{`(+54) 11 69364350`}</p>
+                            </div>
+                            <div className={style.contactoCV}>
+                                <a href={CVFile} download>
+                                    <button>Descargar Curriculum</button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div className={style.fotoInicio}>
                         <img src={fotoPerfil}></img>
@@ -84,20 +112,20 @@ const Home = () =>{
                             </a>
 
 
-                            <a href='mailto:guillermo.david.dias@gmail.com' 
+                            {/* <a href='mailto:guillermo.david.dias@gmail.com' 
                             >
                                 <div className={style.grow}>
                                     <MdOutlineAlternateEmail className={style.iconInicio}/>
                                 </div>
-                            </a>
+                            </a> */}
 
-                            <a href={CVFile} 
+                            {/* <a href={CVFile} 
                                 download
                             >
                                 <div className={style.grow}>
                                     <HiDocumentDownload className={style.iconInicio}/>
                                 </div>
-                            </a>
+                            </a> */}
 
                         </div>
                     </div>
