@@ -47,11 +47,11 @@ const Home = () =>{
         setIsHovered(true);
         console.log("que tiene value en mouseenter: ", value)
         setSkill(value);
-    }
+    };
     const handleMouseLeave = () =>{
         setIsHovered(false);
         setSkill('');
-    }
+    };
 
 
     return(
