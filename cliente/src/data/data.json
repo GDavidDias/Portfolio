@@ -3,7 +3,7 @@
         {"id":1,
             "url":"https://ecommerce-orpin-tau.vercel.app/", 
             "image":"image4",
-            "description":"Ecommerce realizado en React, Node.js, Express y PostgreSQL.  Funcionalidad de pasarela de pagos con MercadoPago, carrito de compras y barra de busqueda. Manejo de usuarios, login y perfil. Uso de Tailwindcss, Redux Toolkit y ventanas modales."
+            "description":"Ecommerce realizado en React, Node.js, Express y PostgreSQL.  Funcionalidad de pasarela de pagos con MercadoPago, carrito de compras y barra de busqueda. Manejo de usuarios, login y perfil. Manejo de Productos de usuario. Validaciones con JWT Uso de Tailwindcss, Redux Toolkit, Ventanas Modales y manejo de fotos con Cloudinary."
         },
         {"id":2,
             "url":"https://pi-food-deploy-five.vercel.app/", 
