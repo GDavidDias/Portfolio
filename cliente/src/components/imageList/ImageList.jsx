@@ -5,7 +5,7 @@ import image4 from '../../../assets/images/image4.jpg';
 import image5 from '../../../assets/images/image5.jpg';
 
 const ImageList = {
-    image1,image2,image3,image4,image5
+    image1,image2,image3,image4,image5,
 };
 
 export default ImageList;
