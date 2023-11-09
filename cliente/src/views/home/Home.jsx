@@ -112,21 +112,6 @@ const Home = () =>{
                             </a>
 
 
-                            {/* <a href='mailto:guillermo.david.dias@gmail.com' 
-                            >
-                                <div className={style.grow}>
-                                    <MdOutlineAlternateEmail className={style.iconInicio}/>
-                                </div>
-                            </a> */}
-
-                            {/* <a href={CVFile} 
-                                download
-                            >
-                                <div className={style.grow}>
-                                    <HiDocumentDownload className={style.iconInicio}/>
-                                </div>
-                            </a> */}
-
                         </div>
                     </div>
                 </div>
