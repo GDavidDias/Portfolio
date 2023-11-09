@@ -2,7 +2,7 @@
     "proyects":[
         {"id":5,
             "url":"https://blog-six-nu-42.vercel.app/", 
-            "image":"image5",
+            "image":"Image5",
             "description":"Blog realizado en React Vite, Node.js Express y PostgreSQL. Funcionalidades: Menu con busqueda de Post, Filtro por Categorias, Vista detalle del Post, Manejo de CRUD completo de un Post (Creacion, Edicion, Consulta y Eliminacion Logica), Manejo de usuarios, login y perfil con JWT.  Paginas realizadas en TailwindCSS, Redux Toolkit, Ventanas Modales y gestion de Fotos con Cloudinary."
         },
         {"id":1,
