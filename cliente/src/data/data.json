@@ -2,28 +2,36 @@
     "proyects":[
         {"id":1,
             "url":"https://blog-six-nu-42.vercel.app/", 
-            "image":"image5",
+            "image":"https://res.cloudinary.com/dyttujtxb/image/upload/v1702390625/portfolio/image5_tcbxcj.jpg",
             "description":"Blog realizado en React Vite, Node.js Express y PostgreSQL. Funcionalidades: Menu con busqueda de Post, Filtro por Categorias, Vista detalle del Post, Manejo de CRUD completo de un Post (Creacion, Edicion, Consulta y Eliminacion Logica), Manejo de usuarios, login y perfil con JWT.  Paginas realizadas en TailwindCSS, Redux Toolkit, Ventanas Modales y gestion de Fotos con Cloudinary."
         },
         {"id":2,
             "url":"https://ecommerce-orpin-tau.vercel.app/", 
-            "image":"image4",
+            "image":"https://res.cloudinary.com/dyttujtxb/image/upload/v1702390625/portfolio/image4_kfbjry.jpg",
             "description":"Ecommerce realizado en React, Node.js, Express y PostgreSQL.  Funcionalidad de pasarela de pagos con MercadoPago, carrito de compras y barra de busqueda. Manejo de usuarios, login y perfil. Manejo de Productos de usuario. Validaciones con JWT Uso de Tailwindcss, Redux Toolkit, Ventanas Modales y manejo de fotos con Cloudinary."
         },
         {"id":3,
             "url":"https://pi-food-deploy-five.vercel.app/", 
-            "image":"image1",
+            "image":"https://res.cloudinary.com/dyttujtxb/image/upload/v1702390624/portfolio/image1_onzk4k.jpg",
             "description":"SPA realizado en React, Node.js, Express y PostgreSQL que muestra las recetas de la api spoonacular, con funcionalidad de CRUD completo al crear recetas, paginacion, filtros y ordenamiento"
         },
         {"id":4,
             "url":"https://colegiosantaclara.edu.ar/", 
-            "image":"image2",
+            "image":"https://res.cloudinary.com/dyttujtxb/image/upload/v1702390625/portfolio/image2_ykwvp3.jpg",
             "description":"Sitio Web Institucional del Colegio Santa Clara de Asis realizado en WordPress, desde el menu principal se accede a informacion del colegio, niveles y actividades."
         },
         {"id":5,
             "url":"https://virtual.colegiosantaclara.edu.ar/", 
-            "image":"image3",
+            "image":"https://res.cloudinary.com/dyttujtxb/image/upload/v1702390625/portfolio/image3_rcj0pw.jpg",
             "description":"Plataforma Virtual con todos los cursos del Colegio Santa Clara de Asis, realizado con el gestor MOODLE, administracion de aulas, matriculacion y generacion de contenido pedagogico."
+        }
+    ],
+    "practicas":[
+        {"id":1,
+            "url":"https://github.com/GDavidDias/React-Native/tree/main/Calculadora",
+            "image":"https://res.cloudinary.com/dyttujtxb/image/upload/v1702413593/portfolio/imagenCalculadora_fqoujz.jpg",
+            "description":"Calculadora realizada en React Native y publicada en Google Play en modo Prueba Interna"
+
         }
     ]
 }

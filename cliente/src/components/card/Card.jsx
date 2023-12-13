@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Card.module.css';
-import ImageList from '../imageList/ImageList';
+//import ImageList from '../imageList/ImageList';
 
 
 const Card = ({proyect}) =>{
@@ -10,7 +10,8 @@ const Card = ({proyect}) =>{
             <div className={style.imageCard}>
                 <a href={proyect.url} target='_blank' >
                     <img 
-                        src={ImageList[proyect.image]}
+                        // src={ImageList[proyect.image]}
+                        src={proyect.image}
                     />
                 </a>
                 

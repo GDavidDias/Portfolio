@@ -19,6 +19,7 @@ import fotoPerfil from '../../../assets/imagePerfil/foto_perfil.jpg'
 import dataJson from '../../../src/data/data.json';
 import CVFile from '../../../assets/CV/CV - Guillermo David Dias 2023.pdf';
 import iconMoodle from '../../../assets/icon/moodle.svg';
+import CardPracticas from '../../components/card/CardPracticas';
 const NUMERO = +541169364350;
 
 const Home = () =>{
@@ -125,6 +126,21 @@ const Home = () =>{
                         data?.proyects.map((proyect,index)=>(
                             <div key={index}>
                                 <Card proyect={proyect}/>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+            </section>
+            <section id='seccionPracticas'>
+            <div className={style.Proyectos}>
+                <h1 id='proyectos' className={style.espacioProyectos}>Prácticas en Tecnologias</h1>
+                <div className={style.CardsProyectos}>
+                    {
+                        data?.practicas.map((practica,index)=>(
+                            <div key={index}>
+                                {/* <Card proyect={practica}/> */}
+                                <CardPracticas practicas={practica}/>
                             </div>
                         ))
                     }
