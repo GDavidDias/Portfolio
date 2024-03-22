@@ -32,6 +32,12 @@
             "image":"https://res.cloudinary.com/dyttujtxb/image/upload/v1702413593/portfolio/imagenCalculadora_fqoujz.jpg",
             "description":"Calculadora realizada en React Native y publicada en Google Play en modo Prueba Interna"
 
+        },
+        {"id":2,
+            "url":"https://vue-six-gilt.vercel.app/",
+            "image":"https://res.cloudinary.com/dyttujtxb/image/upload/v1711129761/portfolio/imagen-inputtag_lpixz8.jpg",
+            "description":"Practica de Input que crea etiquetas, utilizando VUE, Javascript y Vite"
+
         }
     ]
 }
